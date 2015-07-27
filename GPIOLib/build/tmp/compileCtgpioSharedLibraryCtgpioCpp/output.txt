@@ -1,0 +1,8 @@
+See file:///home/hillkorn/repos/CubietruckGPIO/GPIOLib/build/tmp/compileCtgpioSharedLibraryCtgpioCpp/output.txt for all output for compileCtgpioSharedLibraryCtgpioCpp.
+compiling pio.cpp failed.
+/home/hillkorn/repos/CubietruckGPIO/GPIOLib/src/ctgpio/cpp/pio.cpp: In function ‘int main(int, char**)’:
+/home/hillkorn/repos/CubietruckGPIO/GPIOLib/src/ctgpio/cpp/pio.cpp:380:102: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+   buf = mmap(NULL, (0x800 + pagesize - 1) & ~(pagesize-1), PROT_WRITE|PROT_READ, MAP_SHARED, fd, addr);
+                                                                                                      ^
+
+Finished compileCtgpioSharedLibraryCtgpioCpp, see full log file:///home/hillkorn/repos/CubietruckGPIO/GPIOLib/build/tmp/compileCtgpioSharedLibraryCtgpioCpp/output.txt.

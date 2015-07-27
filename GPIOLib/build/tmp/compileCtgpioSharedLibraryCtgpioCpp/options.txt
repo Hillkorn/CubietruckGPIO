@@ -1,0 +1,7 @@
+-x
+c++
+-c
+-fPIC
+-I
+/home/hillkorn/repos/CubietruckGPIO/GPIOLib/src/ctgpio/headers
+-m64

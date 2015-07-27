@@ -1,0 +1,13 @@
+apply plugin: 'cpp'
+
+model {
+  components {
+    ctgpio (NativeLibrarySpec) {
+    }
+    main (NativeExecutableSpec) {
+      sources {
+        cpp.lib library: 'ctgpio', linkage: 'static'
+      }
+    }
+  }
+}
